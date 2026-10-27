@@ -1,0 +1,17 @@
+{
+  "name": "payment-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Transaction Ledger - Node.js/Express + Sequelize + MySQL API with a React (MUI) dashboard",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "test": "npm test --prefix server",
+    "build": "npm run build --prefix client",
+    "serve": "npm run build && npm start --prefix server"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
